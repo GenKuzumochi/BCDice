@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 # frozen_string_literal: true
 
-# TODO: Ruby 2.0未満のサポートを終了したとき削除する
-if RUBY_VERSION < '2.0'
-  require 'utils/array_bsearch'
-end
-
 # 疎らな表を表すクラス。
 #
 # このクラスを使うと、表の定義を短く書ける。
