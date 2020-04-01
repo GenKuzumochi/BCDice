@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 require "utils/ArithmeticEvaluator"
 require "utils/normalizer"
 require "utils/add_dice/node"

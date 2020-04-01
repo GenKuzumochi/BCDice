@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 class AddDice
   module Node
     class Command

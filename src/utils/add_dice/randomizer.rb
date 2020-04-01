@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 class AddDice
   class Randomizer
     attr_reader :dicebot, :cmp_op, :dice_list, :sides
