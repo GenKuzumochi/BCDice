@@ -103,7 +103,7 @@ class AddDice
 
       while !sequence.empty?
         op, round_type, rhs = sequence.shift(3)
-        if rhs.is_a?(Node::Number) && rhs.literal.negative?
+        if rhs.is_a?(Node::Number) && rhs.literal < 0
           if op == :+
             op = :-
             rhs = rhs.negate
